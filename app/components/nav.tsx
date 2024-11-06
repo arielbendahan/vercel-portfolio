@@ -25,7 +25,7 @@ export function Navbar() {
               {name}
             </Link>
           ))}
-          <a href="/CV_Template_to_fill_ANG.docx" download className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative">
+          <a href="/My_Resume.pdf" download className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative">
             My Resume
           </a>
           <ThemeSwitch />
