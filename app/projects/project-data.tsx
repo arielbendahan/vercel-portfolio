@@ -7,24 +7,17 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Project One",
-    year: 2023,
+    title: "SimuBet",
+    year: 2024,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    url: "https://example.com/",
+      "A simulated sports betting Android application that allows the user to bet on various sports. Built with Java and managed with a Firebase database.",
+    url: "https://github.com/arielbendahan/SimuBet-Project",
   },
   {
-    title: "Project Two",
-    year: 2022,
+    title: "FENT Games",
+    year: 2024,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    url: "https://example.com/",
-  },
-  {
-    title: "Project Three",
-    year: 2021,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    url: "https://example.com/",
+      "A website that features an online learning game designed for children. Built primarily using PHP for the game’s code, SQL for managing a user’s score history and uses CSS for the website’s styling.",
+    url: "https://github.com/zikail/PrjPhp-FENTGames",
   },
 ];
