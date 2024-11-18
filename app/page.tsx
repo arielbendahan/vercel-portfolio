@@ -25,16 +25,10 @@ export default function Page() {
           and also showcases a few of my projects on GitHub.
         </p>
         <p>
-          Nextfolio includes all the essentials for a stunning portfolio: SEO,
-          MDX support, RSS, Atom, & JSON feeds, analytics, tweet & YouTube
-          embeds, KaTeX integration, and{" "}
-          <a
-            target="_blank"
-            href="https://github.com/1msirius/Nextfolio?tab=readme-ov-file#features"
-          >
-            more
-          </a>
-          .
+          I excel in Java programming, more specifically Android development, and I'm also strong in SQL Database Management and C#.
+        </p>
+        <p>
+          Thank you for visiting my portfolio!
         </p>
       </div>
     </section>
