@@ -20,8 +20,9 @@ export default function Page() {
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS for optimal performance.
+          Hi! My name is Ariel Bendahan and, welcome to my portfolio.
+          This portfolio features all of my social links where you can reach me
+          and also showcases a few of my projects on GitHub.
         </p>
         <p>
           Nextfolio includes all the essentials for a stunning portfolio: SEO,
@@ -34,24 +35,6 @@ export default function Page() {
             more
           </a>
           .
-        </p>
-        <p>
-          Nextfolio is{" "}
-          <a href={socialLinks.github} target="_blank">
-            open-source
-          </a>{" "}
-          and fully customizable, making it easy to add more features.
-        </p>
-        <p>
-          <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio"
-            target="_blank"
-          >
-            Deploy
-          </a>{" "}
-          your Nextfolio site with Vercel in minutes and follow the set up
-          instructions in the{" "}
-          <a href="/blog/getting-started">Getting Started</a> post.
         </p>
       </div>
     </section>
