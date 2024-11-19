@@ -25,7 +25,13 @@ export default function Page() {
           and also showcases a few of my projects on GitHub.
         </p>
         <p>
+          I'm a 19 year-old student at Collège LaSalle Montréal finishing my DEC in Computer Science Programming.
           I excel in Java programming, more specifically Android development, and I'm also strong in SQL Database Management and C#.
+        </p>
+        <p>
+          Ever since I was young, I was always interested in electronics, especially computers. I would tinker them by modding various consoles, learning about new
+          technologies like virtual reality and even built my own computer. I always try to learn new things in my field and push myself
+          to explore innovative solutions, whether through coding, hardware modding, or keeping up with the latest tech trends.
         </p>
         <p>
           Thank you for visiting my portfolio!
