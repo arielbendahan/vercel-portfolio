@@ -37,10 +37,10 @@ export default function Page() {
             Programming Languages
           </h2>
 
-      <div>
-        <button onClick={() => setActiveSection("Section1")}>Programming Languages</button>
-        <button onClick={() => setActiveSection("Section2")}>Technologies</button>
-      </div>
+        <div className="button-group">
+          <button className="btn" onClick={() => setActiveSection("Section1")}>Programming Languages</button>
+          <button className="btn" onClick={() => setActiveSection("Section2")}>Technologies</button>
+        </div>
 
       {activeSection === "Section1" && (
         <div className="prose prose-neutral dark:prose-invert">
