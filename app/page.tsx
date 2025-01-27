@@ -24,6 +24,11 @@ export default function Page() {
           This portfolio features all of my social links where you can reach me
           and also showcases a few of my projects on GitHub.
         </p>
+
+        <h2 className="mb-8 text-2xl font-medium tracking-tight">
+          About Me
+        </h2>
+        
         <p>
           I'm a 19 year-old student at Collège LaSalle Montréal finishing my DEC in Computer Science Programming.
           I excel in Java programming, more specifically Android development, and I'm also strong in SQL Database Management and C#.
