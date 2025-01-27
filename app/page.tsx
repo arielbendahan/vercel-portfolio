@@ -82,16 +82,17 @@ export default function Page() {
           margin-bottom: 20px;
         }
         .btn {
-          background-color: #0070f3;
+          background-color: black;
           color: white;
           padding: 10px 20px;
           border: none;
-          border-radius: 5px;
+          border-radius: 10px;
           cursor: pointer;
           transition: background-color 0.3s;
+          text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
         }
         .btn:hover {
-          background-color: #005bb5;
+          background-color: #333333;
         }
       `}</style>
     </section>
