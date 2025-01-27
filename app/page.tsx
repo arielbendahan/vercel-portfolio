@@ -75,6 +75,25 @@ export default function Page() {
           Thank you for visiting my portfolio!
         </p>
       </div>
+      <style jsx>{`
+        .button-group {
+          display: flex;
+          gap: 10px;
+          margin-bottom: 20px;
+        }
+        .btn {
+          background-color: #0070f3;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s;
+        }
+        .btn:hover {
+          background-color: #005bb5;
+        }
+      `}</style>
     </section>
   );
 }
