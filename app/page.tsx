@@ -73,7 +73,7 @@ export default function Page() {
         </div>
       )}
 
-    </section>
+    
 
         <h2 className="mb-8 text-2xl font-medium tracking-tight">
           About Me
@@ -87,5 +87,6 @@ export default function Page() {
           Thank you for visiting my portfolio!
         </p>
       </div>
+    </section>
   );
 }
