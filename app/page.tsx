@@ -87,6 +87,5 @@ export default function Page() {
           Thank you for visiting my portfolio!
         </p>
       </div>
-    </section>
   );
 }
