@@ -38,9 +38,8 @@ export default function Page() {
           </h2>
 
       <div>
-        <button onClick={() => setActiveSection("Section1")}>Section 1</button>
-        <button onClick={() => setActiveSection("Section2")}>Section 2</button>
-        <button onClick={() => setActiveSection("Section3")}>Section 3</button>
+        <button onClick={() => setActiveSection("Section1")}>Programming Languages</button>
+        <button onClick={() => setActiveSection("Section2")}>Technologies</button>
       </div>
 
       {activeSection === "Section1" && (
@@ -64,20 +63,6 @@ export default function Page() {
           </ul>
         </div>
       )}
-
-      {activeSection === "Section3" && (
-        <div className="prose prose-neutral dark:prose-invert">
-          <h3>Languages I am familiar with:</h3>
-          <ul>
-            <li>Ruby</li>
-            <li>PHP</li>
-            <li>Go</li>
-          </ul>
-        </div>
-      )}
-
-    
-
         <h2 className="mb-8 text-2xl font-medium tracking-tight">
           About Me
         </h2>
