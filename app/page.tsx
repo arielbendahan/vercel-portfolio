@@ -50,7 +50,6 @@ export default function Page() {
               <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" alt="swift" width="40" height="40"/> Swift</li>
               <li><img src="https://www.svgrepo.com/download/303229/microsoft-sql-server-logo.svg" alt="sql" width="40" height="40"/> SQL</li>
               <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="css" width="40" height="40"/> HTML + CSS</li>
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"/>
               <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> JavaScript</li>
               <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> PHP</li>
             </ul>
