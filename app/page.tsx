@@ -73,9 +73,13 @@ export default function Page() {
           About Me
         </h2>
         <p>
-          Ever since I was young, I was always interested in electronics, especially computers. I would tinker them by modding various consoles, learning about new
-          technologies like virtual reality and even built my own computer. I always try to learn new things in my field and push myself
-          to explore innovative solutions, whether through coding, hardware modding, or keeping up with the latest tech trends.
+          Ever since I could remember, I was always interested in electronics, especially computers. I would use them for hours on end, modding the various consoles I had, learning about new
+          technologies like virtual reality and AI and even building my own computer. I took the many hours I invested in gaming and used this interest in technology to learn more about the computer.
+          I learnt many amazing things like I learnt that I actually have a knack for technical support, which made me the go-to technician at home and I even started learning some basic programming for game development.
+        </p>
+        <p>
+          Eventually, all of those hours I invested learning about modern technology brought me here, where instead of being a consumer of a program, I aspire to be a developer of one.
+          I always push myself to try and learn new things in my field so that when I decide to make a career out of my skills, I will prosper when I become a great programmer!
         </p>
         <p>
           Thank you for visiting my portfolio!
