@@ -59,7 +59,7 @@ export default function Page() {
         {activeSection === "Section2" && (
           <div className="prose prose-neutral dark:prose-invert">
             <h3>Technologies:</h3>
-            <ul>
+            <ul className="language-list">
               <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" alt="visualstudio" width="40" height="40"/> Visual Studio and VS Code</li>
               <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="docker" width="40" height="40"/> Docker</li>
               <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg" alt="aspnet" width="40" height="40"/> ASP.NET</li>
