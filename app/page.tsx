@@ -43,9 +43,9 @@ export default function Page() {
           <div className="prose prose-neutral dark:prose-invert">
             <h3>Programming Languages:</h3>
             <ul className="language-list">
-              <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> Java</li>
-              <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> C#</li>
-              <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg" alt="aspnet" width="40" height="40"/> C++</li>
+              <li><img src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/java.svg" alt="csharp" width="40" height="40"/> Java</li>
+              <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> C#</li>
+              <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> C++</li>
               <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> Python</li>
               <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" alt="swift" width="40" height="40"/> Swift</li>
               <li><img src="https://www.svgrepo.com/download/303229/microsoft-sql-server-logo.svg" alt="sql" width="40" height="40"/> SQL</li>
