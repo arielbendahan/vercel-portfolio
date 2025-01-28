@@ -33,9 +33,6 @@ export default function Page() {
           I'm a 19-year-old student at Collège LaSalle Montréal, and I am finishing my DEC in Computer Science Programming.
           I excel in full-stack development and also have extensive knowledge of the following programming languages:
         </p>
-          <h2 className="mb-8 text-2xl font-medium tracking-tight">
-            Programming Languages
-          </h2>
 
         <div className="button-group">
           <button className="btn" onClick={() => setActiveSection("Section1")}>Programming Languages</button>
@@ -44,22 +41,31 @@ export default function Page() {
 
       {activeSection === "Section1" && (
         <div className="prose prose-neutral dark:prose-invert">
-          <h3>Languages I excel at:</h3>
+          <h3>Programming Languages:</h3>
           <ul>
             <li>Java</li>
-            <li>SQL</li>
             <li>C#</li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>Swift</li>
+            <li>SQL</li>
+            <li>HTML + CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
           </ul>
         </div>
       )}
 
       {activeSection === "Section2" && (
         <div className="prose prose-neutral dark:prose-invert">
-          <h3>Other languages I am proficient in:</h3>
+          <h3>Technologies:</h3>
           <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>HTML/CSS</li>
+            <li>Visual Studio and VS Code</li>
+            <li>Docker</li>
+            <li>ASP.NET</li>
+            <li>Firebase</li>
+            <li>Oracle Database</li>
+            <li>Git and GitHub</li>
           </ul>
         </div>
       )}
