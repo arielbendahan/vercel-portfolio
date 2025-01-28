@@ -25,10 +25,6 @@ Visit the live portfolio [here](https://ariels-portfolio.vercel.app/).
 - **Captions**: Add descriptive captions to photos, tweets, and videos.
 - **Image Grid**: Easily showcase image galleries or photos.
 
-## Contributing
-
-Contributions are welcome! To get involved, just push your code to the repo. Whether you're enhancing existing features or adding new ones, your efforts are greatly appreciated!
-
 ## Licence
 
 This portfolio template is open-source and released under the MIT License.
