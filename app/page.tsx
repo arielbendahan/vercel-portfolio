@@ -39,36 +39,36 @@ export default function Page() {
           <button className="btn" onClick={() => setActiveSection("Section2")}>Technologies</button>
         </div>
 
-      {activeSection === "Section1" && (
-        <div className="prose prose-neutral dark:prose-invert">
-          <h3>Programming Languages:</h3>
-          <ul>
-            <li>Java</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Python</li>
-            <li>Swift</li>
-            <li>SQL</li>
-            <li>HTML + CSS</li>
-            <li>JavaScript</li>
-            <li>PHP</li>
-          </ul>
-        </div>
-      )}
+        {activeSection === "Section1" && (
+          <div className="prose prose-neutral dark:prose-invert">
+            <h3>Programming Languages:</h3>
+            <ul className="language-list">
+              <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> Java</li>
+              <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> C#</li>
+              <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg" alt="aspnet" width="40" height="40"/> C++</li>
+              <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> Python</li>
+              <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" alt="swift" width="40" height="40"/> Swift</li>
+              <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html" width="40" height="40"/> SQL</li>
+              <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css" width="40" height="40"/> HTML + CSS</li>
+              <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> JavaScript</li>
+              <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> PHP</li>
+            </ul>
+          </div>
+        )}
 
-      {activeSection === "Section2" && (
-        <div className="prose prose-neutral dark:prose-invert">
-          <h3>Technologies:</h3>
-          <ul>
-            <li>Visual Studio and VS Code</li>
-            <li>Docker</li>
-            <li>ASP.NET</li>
-            <li>Firebase</li>
-            <li>Oracle Database</li>
-            <li>Git and GitHub</li>
-          </ul>
-        </div>
-      )}
+        {activeSection === "Section2" && (
+          <div className="prose prose-neutral dark:prose-invert">
+            <h3>Technologies:</h3>
+            <ul>
+              <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" alt="visualstudio" width="40" height="40"/> Visual Studio and VS Code</li>
+              <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="docker" width="40" height="40"/> Docker</li>
+              <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg" alt="aspnet" width="40" height="40"/> ASP.NET</li>
+              <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg" alt="firebase" width="40" height="40"/> Firebase</li>
+              <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> Oracle Database</li>
+              <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="github" width="40" height="40"/> Git and GitHub</li>
+            </ul>
+          </div>
+        )}
         <h2 className="mb-8 text-2xl font-medium tracking-tight">
           About Me
         </h2>
@@ -81,7 +81,7 @@ export default function Page() {
           Thank you for visiting my portfolio!
         </p>
       </div>
-      <style jsx>{`
+            <style jsx>{`
         .button-group {
           display: flex;
           gap: 10px;
@@ -99,6 +99,19 @@ export default function Page() {
         }
         .btn:hover {
           background-color: #333333;
+        }
+        .language-list {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+        }
+        .language-list li {
+          list-style: none;
+          margin-right: 20px;
+        }
+        .language-list img {
+          margin-right: 10px;
+          vertical-align: middle;
         }
       `}</style>
     </section>
